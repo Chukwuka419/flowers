@@ -1,0 +1,730 @@
+    .login_tittle h1 {
+        color: #fff;
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .login_tittle {
+        width: 100%;
+        padding-left: 40px;
+    }
+    
+    .login_wrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 500px;
+        transform: translate(-50%, -50%);
+        height: 500px;
+        background: transparent;
+        border: 2px solid rgba(228, 220, 220, 0.5);
+        border-radius: 20px;
+        backdrop-filter: blur(20px);
+        box-shadow: 0 0 30px rgba(240, 217, 217, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .input_box {
+        position: relative;
+        width: 90%;
+        height: 50px;
+        border-bottom: 2px solid #162938;
+        margin: 30px 0;
+        color: #fff;
+    }
+    
+    .input_box label {
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        transform: translateY(-50%);
+        font-size: 1rem;
+        color: #fff;
+        font-weight: 500;
+        cursor: pointer;
+        pointer-events: none;
+    }
+    
+    .input_box .input {
+        height: 100;
+        color: #fff;
+        width: 60%;
+        padding-top: 20px;
+        padding-left: 100px;
+        background: transparent;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+    }
+    
+    .remember_forget {
+        margin-top: 50px;
+        font-size: 1.2rem;
+        color: #fff;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .remember_forget a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .remember_forget a:hover {
+        text-decoration: underline;
+        color: #162938;
+    }
+    
+    .btn {
+        width: 90%;
+        height: 45px;
+        margin-top: 15px;
+        background: #162938;
+        outline: none;
+        border-radius: 6px;
+        cursor: pointer;
+        color: #fff;
+        font-size: 1rem;
+    }
+    
+    .login_register {
+        font-size: 1rem;
+        color: #fff;
+        text-align: center;
+        font-weight: 500;
+        margin: 25px 0 10px;
+    }
+    
+    .login_register p a {
+        font-size: 1rem;
+        text-decoration: none;
+        font-weight: 500;
+        color: #fff;
+        margin-left: 10px;
+    }
+    
+    .login_register p a:hover {
+        color: #162938;
+    }
+    
+    @media (max-width:780px) {
+        .login_tittle h1 {
+            color: #fff;
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+        }
+        .login_tittle {
+            width: 100%;
+            padding-left: 40px;
+        }
+        .login_wrapper {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 500px;
+            transform: translate(-50%, -50%);
+            height: 500px;
+            background: transparent;
+            border: 2px solid rgba(228, 220, 220, 0.5);
+            border-radius: 20px;
+            backdrop-filter: blur(20px);
+            box-shadow: 0 0 30px rgba(240, 217, 217, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .input_box {
+            position: relative;
+            width: 90%;
+            height: 50px;
+            border-bottom: 2px solid #162938;
+            margin: 30px 0;
+            color: #fff;
+        }
+        .input_box label {
+            position: absolute;
+            top: 50%;
+            left: 5px;
+            transform: translateY(-50%);
+            font-size: 1rem;
+            color: #fff;
+            font-weight: 500;
+            cursor: pointer;
+            pointer-events: none;
+        }
+        .input_box .input {
+            height: 100;
+            color: #fff;
+            width: 60%;
+            padding-top: 20px;
+            padding-left: 100px;
+            background: transparent;
+            border: none;
+            outline: none;
+            font-size: 1rem;
+        }
+        .remember_forget {
+            margin-top: 50px;
+            font-size: 1.2rem;
+            color: #fff;
+            display: flex;
+            justify-content: space-around;
+        }
+        .remember_forget a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .remember_forget a:hover {
+            text-decoration: underline;
+            color: #162938;
+        }
+        .btn {
+            width: 90%;
+            height: 45px;
+            margin-top: 15px;
+            background: #162938;
+            outline: none;
+            border-radius: 6px;
+            cursor: pointer;
+            color: #fff;
+            font-size: 1rem;
+        }
+        .login_register {
+            font-size: 1rem;
+            color: #fff;
+            text-align: center;
+            font-weight: 500;
+            margin: 25px 0 10px;
+        }
+        .login_register p a {
+            font-size: 1rem;
+            text-decoration: none;
+            font-weight: 500;
+            color: #fff;
+            margin-left: 10px;
+        }
+        .login_register p a:hover {
+            color: #162938;
+        }
+    }
+    
+    @media (max-width:620px) {
+        .login_tittle h1 {
+            color: #fff;
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+        }
+        .login_tittle {
+            width: 100%;
+            padding-left: 40px;
+        }
+        .login_wrapper {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 500px;
+            transform: translate(-50%, -50%);
+            height: 500px;
+            background: transparent;
+            border: 2px solid rgba(228, 220, 220, 0.5);
+            border-radius: 20px;
+            backdrop-filter: blur(20px);
+            box-shadow: 0 0 30px rgba(240, 217, 217, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .input_box {
+            position: relative;
+            width: 90%;
+            height: 50px;
+            border-bottom: 2px solid #162938;
+            margin: 30px 0;
+            color: #fff;
+        }
+        .input_box label {
+            position: absolute;
+            top: 50%;
+            left: 5px;
+            transform: translateY(-50%);
+            font-size: 1rem;
+            color: #fff;
+            font-weight: 500;
+            cursor: pointer;
+            pointer-events: none;
+        }
+        .input_box .input {
+            height: 100;
+            color: #fff;
+            width: 60%;
+            padding-top: 20px;
+            padding-left: 100px;
+            background: transparent;
+            border: none;
+            outline: none;
+            font-size: 1rem;
+        }
+        .remember_forget {
+            margin-top: 50px;
+            font-size: 1.2rem;
+            color: #fff;
+            display: flex;
+            justify-content: space-around;
+        }
+        .remember_forget a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .remember_forget a:hover {
+            text-decoration: underline;
+            color: #162938;
+        }
+        .btn {
+            width: 90%;
+            height: 45px;
+            margin-top: 15px;
+            background: #162938;
+            outline: none;
+            border-radius: 6px;
+            cursor: pointer;
+            color: #fff;
+            font-size: 1rem;
+        }
+        .login_register {
+            font-size: 1rem;
+            color: #fff;
+            text-align: center;
+            font-weight: 500;
+            margin: 25px 0 10px;
+        }
+        .login_register p a {
+            font-size: 1rem;
+            text-decoration: none;
+            font-weight: 500;
+            color: #fff;
+            margin-left: 10px;
+        }
+        .login_register p a:hover {
+            color: #162938;
+        }
+    }
+    
+    @media (max-width:460px) {
+        .login_tittle h1 {
+            color: #fff;
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+        }
+        .login_tittle {
+            width: 100%;
+            padding-left: 40px;
+        }
+        .login_wrapper {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 400px;
+            transform: translate(-50%, -50%);
+            height: 500px;
+            background: transparent;
+            border: 2px solid rgba(228, 220, 220, 0.5);
+            border-radius: 20px;
+            backdrop-filter: blur(20px);
+            box-shadow: 0 0 30px rgba(240, 217, 217, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .input_box {
+            position: relative;
+            width: 90%;
+            height: 50px;
+            border-bottom: 2px solid #162938;
+            margin: 30px 0;
+            color: #fff;
+        }
+        .input_box label {
+            position: absolute;
+            top: 50%;
+            left: 5px;
+            transform: translateY(-50%);
+            font-size: 1rem;
+            color: #fff;
+            font-weight: 500;
+            cursor: pointer;
+            pointer-events: none;
+        }
+        .input_box .input {
+            height: 100;
+            color: #fff;
+            width: 60%;
+            padding-top: 20px;
+            padding-left: 100px;
+            background: transparent;
+            border: none;
+            outline: none;
+            font-size: 1rem;
+        }
+        .remember_forget {
+            margin-top: 50px;
+            font-size: 1.2rem;
+            color: #fff;
+            display: flex;
+            justify-content: space-around;
+        }
+        .remember_forget a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .remember_forget a:hover {
+            text-decoration: underline;
+            color: #162938;
+        }
+        .btn {
+            width: 90%;
+            height: 45px;
+            margin-top: 15px;
+            background: #162938;
+            outline: none;
+            border-radius: 6px;
+            cursor: pointer;
+            color: #fff;
+            font-size: 1rem;
+        }
+        .login_register {
+            font-size: 1rem;
+            color: #fff;
+            text-align: center;
+            font-weight: 500;
+            margin: 25px 0 10px;
+        }
+        .login_register p a {
+            font-size: 1rem;
+            text-decoration: none;
+            font-weight: 500;
+            color: #fff;
+            margin-left: 10px;
+        }
+        .login_register p a:hover {
+            color: #162938;
+        }
+    }
+    
+    @media (max-width:420px) {
+        .login_tittle h1 {
+            color: #fff;
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+        }
+        .login_tittle {
+            width: 100%;
+            padding-left: 40px;
+        }
+        .login_wrapper {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 350px;
+            transform: translate(-50%, -50%);
+            height: 500px;
+            background: transparent;
+            border: 2px solid rgba(228, 220, 220, 0.5);
+            border-radius: 20px;
+            backdrop-filter: blur(20px);
+            box-shadow: 0 0 30px rgba(240, 217, 217, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .input_box {
+            position: relative;
+            width: 90%;
+            height: 50px;
+            border-bottom: 2px solid #162938;
+            margin: 30px 0;
+            color: #fff;
+        }
+        .input_box label {
+            position: absolute;
+            top: 50%;
+            left: 5px;
+            transform: translateY(-50%);
+            font-size: 1rem;
+            color: #fff;
+            font-weight: 500;
+            cursor: pointer;
+            pointer-events: none;
+        }
+        .input_box .input {
+            height: 100;
+            color: #fff;
+            width: 60%;
+            padding-top: 20px;
+            padding-left: 100px;
+            background: transparent;
+            border: none;
+            outline: none;
+            font-size: 1rem;
+        }
+        .remember_forget {
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: #fff;
+            display: flex;
+            justify-content: space-around;
+        }
+        .remember_forget a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .remember_forget a:hover {
+            text-decoration: underline;
+            color: #162938;
+        }
+        .btn {
+            width: 90%;
+            height: 45px;
+            margin-top: 15px;
+            background: #162938;
+            outline: none;
+            border-radius: 6px;
+            cursor: pointer;
+            color: #fff;
+            font-size: 1rem;
+        }
+        .login_register {
+            font-size: 1rem;
+            color: #fff;
+            text-align: center;
+            font-weight: 500;
+            margin: 25px 0 10px;
+        }
+        .login_register p a {
+            font-size: 1rem;
+            text-decoration: none;
+            font-weight: 500;
+            color: #fff;
+            margin-left: 10px;
+        }
+        .login_register p a:hover {
+            color: #162938;
+        }
+    }
+    
+    @media (max-width:400px) {
+        .login_tittle h1 {
+            color: #fff;
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+        }
+        .login_tittle {
+            width: 100%;
+            padding-left: 40px;
+        }
+        .login_wrapper {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 350px;
+            transform: translate(-50%, -50%);
+            height: 500px;
+            background: transparent;
+            border: 2px solid rgba(228, 220, 220, 0.5);
+            border-radius: 20px;
+            backdrop-filter: blur(20px);
+            box-shadow: 0 0 30px rgba(240, 217, 217, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .input_box {
+            position: relative;
+            width: 90%;
+            height: 50px;
+            border-bottom: 2px solid #162938;
+            margin: 30px 0;
+            color: #fff;
+        }
+        .input_box label {
+            position: absolute;
+            top: 50%;
+            left: 5px;
+            transform: translateY(-50%);
+            font-size: 1rem;
+            color: #fff;
+            font-weight: 500;
+            cursor: pointer;
+            pointer-events: none;
+        }
+        .input_box .input {
+            height: 100;
+            color: #fff;
+            width: 60%;
+            padding-top: 20px;
+            padding-left: 100px;
+            background: transparent;
+            border: none;
+            outline: none;
+            font-size: 1rem;
+        }
+        .remember_forget {
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: #fff;
+            display: flex;
+            justify-content: space-around;
+        }
+        .remember_forget a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .remember_forget a:hover {
+            text-decoration: underline;
+            color: #162938;
+        }
+        .btn {
+            width: 90%;
+            height: 45px;
+            margin-top: 15px;
+            background: #162938;
+            outline: none;
+            border-radius: 6px;
+            cursor: pointer;
+            color: #fff;
+            font-size: 1rem;
+        }
+        .login_register {
+            font-size: 1rem;
+            color: #fff;
+            text-align: center;
+            font-weight: 500;
+            margin: 25px 0 10px;
+        }
+        .login_register p a {
+            font-size: 1rem;
+            text-decoration: none;
+            font-weight: 500;
+            color: #fff;
+            margin-left: 10px;
+        }
+        .login_register p a:hover {
+            color: #162938;
+        }
+    }
+    
+    @media (max-width:390px) {
+        .login_tittle h1 {
+            color: #fff;
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+        }
+        .login_tittle {
+            width: 100%;
+            padding-left: 40px;
+        }
+        .login_wrapper {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 350px;
+            transform: translate(-50%, -50%);
+            height: 500px;
+            background: transparent;
+            border: 2px solid rgba(228, 220, 220, 0.5);
+            border-radius: 20px;
+            backdrop-filter: blur(20px);
+            box-shadow: 0 0 30px rgba(240, 217, 217, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .input_box {
+            position: relative;
+            width: 90%;
+            height: 50px;
+            border-bottom: 2px solid #162938;
+            margin: 30px 0;
+            color: #fff;
+        }
+        .input_box label {
+            position: absolute;
+            top: 50%;
+            left: 5px;
+            transform: translateY(-50%);
+            font-size: 1rem;
+            color: #fff;
+            font-weight: 500;
+            cursor: pointer;
+            pointer-events: none;
+        }
+        .input_box .input {
+            height: 100;
+            color: #fff;
+            width: 60%;
+            padding-top: 20px;
+            padding-left: 100px;
+            background: transparent;
+            border: none;
+            outline: none;
+            font-size: 1rem;
+        }
+        .remember_forget {
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: #fff;
+            display: flex;
+            justify-content: space-around;
+        }
+        .remember_forget a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .remember_forget a:hover {
+            text-decoration: underline;
+            color: #162938;
+        }
+        .btn {
+            width: 90%;
+            height: 45px;
+            margin-top: 15px;
+            background: #162938;
+            outline: none;
+            border-radius: 6px;
+            cursor: pointer;
+            color: #fff;
+            font-size: 1rem;
+        }
+        .login_register {
+            font-size: 1rem;
+            color: #fff;
+            text-align: center;
+            font-weight: 500;
+            margin: 25px 0 10px;
+        }
+        .login_register p a {
+            font-size: 1rem;
+            text-decoration: none;
+            font-weight: 500;
+            color: #fff;
+            margin-left: 10px;
+        }
+        .login_register p a:hover {
+            color: #162938;
+        }
+    }
